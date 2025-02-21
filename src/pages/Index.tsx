@@ -4,6 +4,7 @@ import Hero from "@/components/Hero";
 import TopFunds from "@/components/TopFunds";
 import Calculator from "@/components/Calculator";
 import Learn from "@/components/Learn";
+import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
@@ -15,6 +16,7 @@ const Index = () => {
         <Calculator />
         <Learn />
       </main>
+      <Footer />
     </div>
   );
 };
